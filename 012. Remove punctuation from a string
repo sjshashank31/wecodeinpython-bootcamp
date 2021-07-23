@@ -1,0 +1,11 @@
+punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+message = "$$$Hello$$!!!, ##he s-aid$$ and then -----he went$$"
+
+# remove punctuation from the string
+new = ""
+for char in message:
+    if char not in punctuations:
+        new += char
+
+print(new)
