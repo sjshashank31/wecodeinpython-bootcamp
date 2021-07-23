@@ -1,0 +1,10 @@
+my_str = 'Nayan'
+
+# make it suitable for caseless comparison
+my_str = my_str.casefold()
+
+# check if the string is equal to its reverse
+if my_str == my_str[::-1]:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
