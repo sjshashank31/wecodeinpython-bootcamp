@@ -1,0 +1,18 @@
+# with items
+dt = {'a': 'juice', 'b': 'grill', 'c': 'corn'}
+
+for key, value in dt.items():
+    print(key, value)
+
+#with iteritems
+dt = {'a': 'juice', 'b': 'grill', 'c': 'corn'}
+
+for key, value in dt.iteritems():
+    print(key, value)
+    
+    
+#without iteritem
+dt = {'a': 'juice', 'b': 'grill', 'c': 'corn'}
+
+for key in dt:
+    print(key, dt[key])
