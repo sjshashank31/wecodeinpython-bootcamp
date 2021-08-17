@@ -1,0 +1,13 @@
+# using enumerate
+my_list = [12, 4, 5, 10]
+
+for index, val in enumerate(my_list):
+    print(index, val)
+   
+# without enumerate
+
+my_list = [12, 4, 5, 10]
+
+for index in range(len(my_list)):
+    value = my_list[index]
+    print(index, value)
